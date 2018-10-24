@@ -16,10 +16,10 @@ public class driver {
 
     public static void main(String[] args) {
         /* Mock some Joda DateTime Objects to use as sample birthdays */
-        DateTime Date1 = new DateTime(0);
-        DateTime Date2 = new DateTime(315532800);
-        DateTime Date3 = new DateTime(631152000);
-        DateTime Date4 = new DateTime(946684800);
+        DateTime Date1 = new DateTime(1990,07,22,00,11);
+        DateTime Date2 = new DateTime(1980,11,2,00,00);
+        DateTime Date3 = new DateTime(1997,01,01,20,01);
+        DateTime Date4 = new DateTime(2002,04,01,22,12);
 
         /* Student Data */
         Student student1 = new Student("Patrick", 10203040, Date1);
